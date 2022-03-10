@@ -15,7 +15,7 @@ C:/Users/dboze/Documents/Local-Repos/Unity-Isometric/Isometric-Unity/Forest
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-64019
+51941
 Successfully changed project path to: C:/Users/dboze/Documents/Local-Repos/Unity-Isometric/Isometric-Unity/Forest
 C:/Users/dboze/Documents/Local-Repos/Unity-Isometric/Isometric-Unity/Forest
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/dboze/Documents/Local-Repos/Unity-Isometric/Isometric-Unity/Forest
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 75.27 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 75.19 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.7f1 (6bd9e232123f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/Resources/UnitySubsystems
@@ -63,92 +63,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56212
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56828
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006918 seconds.
+Registered in 0.006590 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 68.03 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 71.07 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.538 seconds
+- Completed reload, in  0.503 seconds
 Domain Reload Profiling:
-	ReloadAssembly (538ms)
-		BeginReloadAssembly (64ms)
+	ReloadAssembly (504ms)
+		BeginReloadAssembly (60ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (403ms)
-			LoadAssemblies (62ms)
+		EndReloadAssembly (380ms)
+			LoadAssemblies (58ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (89ms)
+			SetupTypeCache (80ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (22ms)
-			SetupLoadedEditorAssemblies (244ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (235ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
+				InitializePlatformSupportModulesInManaged (13ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (68ms)
+				RefreshPlugins (71ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (119ms)
-				ProcessInitializeOnLoadMethodAttributes (37ms)
+				ProcessInitializeOnLoadAttributes (115ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005062 seconds.
+Registered in 0.005147 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\dboze\Documents\Local-Repos\Unity-Isometric\Isometric-Unity\Forest\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\dboze\Documents\Local-Repos\Unity-Isometric\Isometric-Unity\Forest\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 74.65 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.829 seconds
+- Completed reload, in  0.927 seconds
 Domain Reload Profiling:
-	ReloadAssembly (830ms)
-		BeginReloadAssembly (93ms)
+	ReloadAssembly (927ms)
+		BeginReloadAssembly (88ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (653ms)
-			LoadAssemblies (67ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (761ms)
+			LoadAssemblies (63ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (218ms)
+			SetupTypeCache (208ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (302ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (418ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (71ms)
-				ProcessInitializeOnLoadAttributes (192ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
+				RefreshPlugins (75ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (228ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
 				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3212 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (112.5 KB). Loaded Objects now: 3668.
-Memory consumption went from 112.9 MB to 112.8 MB.
-Total: 3.675200 ms (FindLiveObjects: 0.342400 ms CreateObjectMapping: 0.304900 ms MarkObjects: 2.935800 ms  DeleteObjects: 0.091000 ms)
+Unloading 3625 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (112.5 KB). Loaded Objects now: 4086.
+Memory consumption went from 130.6 MB to 130.5 MB.
+Total: 2.827200 ms (FindLiveObjects: 0.267700 ms CreateObjectMapping: 0.215700 ms MarkObjects: 2.264100 ms  DeleteObjects: 0.079100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -162,34 +162,16 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 16154.564503 seconds.
-  path: Assets/Models/FBX format/blockSnowSlopeHalf.fbx
-  artifactKey: Guid(2b414e69721e20a45b759f4479cb2857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/FBX format/blockSnowSlopeHalf.fbx using Guid(2b414e69721e20a45b759f4479cb2857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f98eded75e58077bea57283fce61e40a') in 0.140726 seconds 
+  Time since last request: 36122.724735 seconds.
+  path: Assets/Marcos Schultz/MSAdvancedCameraController/Textures/Ground2.png
+  artifactKey: Guid(30f5e34726324f3498caf645861d7763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marcos Schultz/MSAdvancedCameraController/Textures/Ground2.png using Guid(30f5e34726324f3498caf645861d7763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c0cb44de8f58f7cbc164428c886a934') in 0.075879 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.209723 seconds.
-  path: Assets/Models/FBX format/chest.fbx
-  artifactKey: Guid(591654a4895c98b429ff588002dfe477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/FBX format/chest.fbx using Guid(591654a4895c98b429ff588002dfe477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79ef2bd30c8d6e7ba3eb03b60c09db7a') in 0.029480 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.024030 seconds.
-  path: Assets/Models/FBX format/crateItemStrong.fbx
-  artifactKey: Guid(55dfdfcf15485c242b787df43fcac824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/FBX format/crateItemStrong.fbx using Guid(55dfdfcf15485c242b787df43fcac824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e12960a93dda10f75aeecd79f23ddc2e') in 0.023784 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.445258 seconds.
-  path: Assets/Models/FBX format/fenceLowBroken.fbx
-  artifactKey: Guid(25f1bf4804f1a5a449b0046432744c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/FBX format/fenceLowBroken.fbx using Guid(25f1bf4804f1a5a449b0046432744c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6936c987463827a3b801cd2ab7338911') in 0.022945 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Models/FBX format/flowersLow.fbx
-  artifactKey: Guid(b797607eacbf76c4785a87521e1256c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/FBX format/flowersLow.fbx using Guid(b797607eacbf76c4785a87521e1256c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66f134a075771bec2c4fe85feff8df47') in 0.026311 seconds 
+  Time since last request: 8.305705 seconds.
+  path: Assets/Marcos Schultz/MSAdvancedCameraController/Materials/Metal2.mat
+  artifactKey: Guid(30c0028dd68633845ad438b2b6860f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marcos Schultz/MSAdvancedCameraController/Materials/Metal2.mat using Guid(30c0028dd68633845ad438b2b6860f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f48384f9063cd9683d2d8108baaebaf3') in 0.223733 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
