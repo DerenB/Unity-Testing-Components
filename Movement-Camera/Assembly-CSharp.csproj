@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets\Input-Settings\ThirdPersonActionAssets.cs" />
     <Compile Include="Assets\Scripts\ThirdPersonController.cs" />
+    <Compile Include="Assets\Scripts\ThirdPersonAnimation.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
