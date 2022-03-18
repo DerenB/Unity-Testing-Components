@@ -21,23 +21,36 @@ public class ThirdPersonController : MonoBehaviour
     // CAMERA
     [SerializeField] private Camera playerCamera;
 
+    // ANIMATION
+    private Animator animator;
+
     private void Awake()
     {
         // INITIALIZATION
         rb = this.GetComponent<Rigidbody>();
         playerActionAsset = new ThirdPersonActionAssets();
+        animator = this.GetComponent<Animator>();
     }
 
     private void OnEnable()
     {
         playerActionAsset.Player.Jump.started += DoJump;
+
+        // Attacking
+        playerActionAsset.Player.Attack.started += DoAttack;
+        
         move = playerActionAsset.Player.Move;
         playerActionAsset.Player.Enable();
+
     }
 
     private void OnDisable()
     {
         playerActionAsset.Player.Jump.started -= DoJump;
+
+        // Attacking
+        playerActionAsset.Player.Attack.started += DoAttack;
+
         playerActionAsset.Player.Disable();
     }
 
@@ -122,5 +135,11 @@ public class ThirdPersonController : MonoBehaviour
         {
             return false;
         }
+    }
+
+    // ATTACKING
+    private void DoAttack(InputAction.CallbackContext obj)
+    {
+        animator.SetTrigger("attack");
     }
 }
