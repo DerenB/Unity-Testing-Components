@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "3304778e-d855-bd10-a4a0-63b5ee4e5d96": {
+      "ProjectGuid": "3304778e-d855-bd10-a4a0-63b5ee4e5d96",
+      "DisplayName": "Assembly-CSharp-firstpass",
+      "ColorIndex": 0
+    },
+    "8195c52d-132c-4130-c37c-7d9d951d1b0f": {
+      "ProjectGuid": "8195c52d-132c-4130-c37c-7d9d951d1b0f",
+      "DisplayName": "Assembly-CSharp",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
