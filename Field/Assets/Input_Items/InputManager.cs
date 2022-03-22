@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class InputManager : MonoBehaviour
 {
+    // Input Action object
     PlayerControls playerControls;
+
+    // Animation Script
     AnimatorManager animatorManager;
 
     [Header("Player Movement")]
@@ -12,8 +15,11 @@ public class InputManager : MonoBehaviour
     public float horizontalMovementInput;
     private Vector2 movementInput;
 
+    
+
     private void Awake()
     {
+        // Calls the animation script
         animatorManager = GetComponent<AnimatorManager>();
     }
 
@@ -36,7 +42,7 @@ public class InputManager : MonoBehaviour
 
     public void HandleAllInputs()
     {
-        // Handle Movement Input
+        // Calls the Movement Input
         HandleMovementInput();
 
         // Handle Sprinting Input
@@ -44,8 +50,11 @@ public class InputManager : MonoBehaviour
 
     private void HandleMovementInput()
     {
+        // Gets the movement from input
         horizontalMovementInput = movementInput.x;
         verticalMovementInput = movementInput.y;
+        
+        // Applies the movement to the animation manager
         animatorManager.HandleAnimatorValues(horizontalMovementInput, verticalMovementInput);
     }
 }
