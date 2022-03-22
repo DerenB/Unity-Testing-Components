@@ -107,10 +107,10 @@ public class Locomotion : MonoBehaviour
 
         if(!isGrounded)
         {
-            Debug.Log("YOU FELL");
+            //Debug.Log("YOU FELL");
             if (!playerManager.isInteracting)
             {
-                Debug.Log("animate - - - fall");
+                //Debug.Log("animate - - - fall");
                 animationManager.PlayTargetAnimation("Falling", true);
             }
 
@@ -121,10 +121,10 @@ public class Locomotion : MonoBehaviour
 
         if(Physics.SphereCast(rayCastOrigin, 0.2f, -Vector3.up, out hit, groundLayer))
         {
-            Debug.Log("YOU HIT THE GROUND");
+            //Debug.Log("YOU HIT THE GROUND");
             if(!isGrounded && !playerManager.isInteracting)
             {
-                Debug.Log("animate - - - land");
+                //Debug.Log("animate - - - land");
                 animationManager.PlayTargetAnimation("Land", true);
             }
 
@@ -133,7 +133,7 @@ public class Locomotion : MonoBehaviour
         }
         else
         {
-            Debug.Log("STILL FALLING ...... ");
+            //Debug.Log("STILL FALLING ...... ");
             isGrounded = false;
         }
     }
