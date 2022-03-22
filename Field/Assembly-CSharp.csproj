@@ -69,6 +69,7 @@
     <Compile Include="Assets\ThirdVersion\ManagePlayer.cs" />
     <Compile Include="Assets\ThirdVersion\ManageAnimation.cs" />
     <Compile Include="Assets\ThirdVersion\CameraManager.cs" />
+    <Compile Include="Assets\ThirdVersion\ResetBool.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

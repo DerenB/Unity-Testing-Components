@@ -1992,8 +1992,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movementInput: {x: 0, y: 0}
   cameraInput: {x: 0, y: 0}
+  moveAmount: 0
   verticalInput: 0
   horizontalInput: 0
+  b_input: 0
   cameraInputX: 0
   cameraInputY: 0
 --- !u!114 &1019790899543972
@@ -2008,7 +2010,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce435c8f7b387fd488645282b66686af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 7
+  isSprinting: 0
+  walkingSpeed: 1.5
+  runningSpeed: 5
+  sprintingSpeed: 9
   rotationSpeed: 15
 --- !u!114 &1019790899543973
 MonoBehaviour:
@@ -2022,6 +2027,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85891691b68de5f4d83e39578984b018, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isInteracting: 0
 --- !u!114 &1019790899543974
 MonoBehaviour:
   m_ObjectHideFlags: 0
