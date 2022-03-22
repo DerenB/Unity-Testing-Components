@@ -162,6 +162,7 @@
     <Compile Include="Assets\Import_Standard Assets\2D\Scripts\PlatformerCharacter2D.cs" />
     <Compile Include="Assets\Import_Standard Assets\Utility\FPSCounter.cs" />
     <Compile Include="Assets\Import_Standard Assets\Utility\SimpleActivatorMenu.cs" />
+    <Compile Include="Assets\O_InputControllers\PlayerControls.cs" />
     <Compile Include="Assets\Import_Invector-3rdPersonController_LITE\Scripts\CharacterController\vThirdPersonAnimator.cs" />
     <Compile Include="Assets\Import_Invector-3rdPersonController_LITE\Scripts\Generic\Utils\vComment.cs" />
     <Compile Include="Assets\Import_Invector-3rdPersonController_LITE\Scripts\CharacterController\vThirdPersonInput.cs" />
@@ -174,6 +175,8 @@
     <Compile Include="Assets\O_Animations\AnimatorManager.cs" />
     <Compile Include="Assets\O_Camera_Script\PlayerCamera.cs" />
     <Compile Include="Assets\O_InputControllers\PlayerManager.cs" />
+    <Compile Include="Assets\O_InputControllers\InputManager.cs" />
+    <Compile Include="Assets\O_Animations\PlayerLocomotionManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Import_Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
