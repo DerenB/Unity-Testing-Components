@@ -11,7 +11,7 @@ public class PlayerLocomotionManager : MonoBehaviour
 
     // How fast the character will rotate
     [Header("Movement Speed")]
-    public float rotationSpeed = 3.5f;
+    public float rotationSpeed = 1.5f;
 
     [Header("Rotation Variables")]
     Quaternion targetRotation; // The place we want to rotate

@@ -16,12 +16,12 @@ public class PlayerCamera : MonoBehaviour
     Quaternion targetRotation;
 
     [Header("Camera Speeds")]
-    float cameraSmoothTime = 0.2f;
+    float cameraSmoothTime = 0.01f;
 
     float lookAmountVertical;
     float lookAmountHorizontal;
-    float maximumPivotAngle = 15;
-    float minimumPivotAngle = -15;
+    float maximumPivotAngle = 30;
+    float minimumPivotAngle = -30;
 
     private void Awake()
     {
@@ -45,8 +45,8 @@ public class PlayerCamera : MonoBehaviour
 
     private void RotateCamera()
     {
-        lookAmountVertical = lookAmountVertical + (inputManager.horizontalCameraInput);
-        lookAmountHorizontal = lookAmountHorizontal - (inputManager.verticalCameraInput);
+        lookAmountVertical = (lookAmountVertical + (inputManager.horizontalCameraInput));
+        lookAmountHorizontal = (lookAmountHorizontal - (inputManager.verticalCameraInput));
         lookAmountHorizontal = Mathf.Clamp(lookAmountHorizontal, minimumPivotAngle, maximumPivotAngle);
 
         cameraRotation = Vector3.zero;
