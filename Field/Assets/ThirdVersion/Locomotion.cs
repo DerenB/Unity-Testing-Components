@@ -5,13 +5,23 @@ using UnityEngine;
 public class Locomotion : MonoBehaviour
 {
     ManagePlayer playerManager;
+    ManageAnimation animationManager;
     ManageInput inputManager;
 
     Vector3 moveDirection;
     Transform cameraObject;
     Rigidbody playerRigidBody;
 
+    [Header("Falling")]
+    public float inAirTime;
+    public float leepingVelocity;
+    public float fallingVelocity;
+    public float rayCastHeightOffset = 0.5f;
+    public LayerMask groundLayer;
+
+    [Header("Movement Flags")]
     public bool isSprinting;
+    public bool isGrounded;
 
     [Header("Movement Speeds")]
     public float walkingSpeed = 1.5f;
@@ -22,6 +32,7 @@ public class Locomotion : MonoBehaviour
     private void Awake()
     {
         playerManager = GetComponent<ManagePlayer>();
+        animationManager = GetComponent<ManageAnimation>();
         inputManager = GetComponent<ManageInput>();
         playerRigidBody = GetComponent<Rigidbody>();
         cameraObject = Camera.main.transform;
@@ -29,7 +40,8 @@ public class Locomotion : MonoBehaviour
 
     public void HandleAllMovement()
     {
-        if(playerManager.isInteracting)
+        HandleFallingAndLanding();
+        if (playerManager.isInteracting)
         {
             return;
         }
@@ -87,5 +99,37 @@ public class Locomotion : MonoBehaviour
         transform.rotation = playerRotation;
     }
 
+    private void HandleFallingAndLanding()
+    {
+        RaycastHit hit;
+        Vector3 rayCastOrigin = transform.position;
+        rayCastOrigin.y = rayCastOrigin.y + rayCastHeightOffset;
 
+        if(!isGrounded)
+        {
+            if(!playerManager.isInteracting)
+            {
+                animationManager.PlayTargetAnimation("Falling", true);
+            }
+
+            inAirTime = inAirTime + Time.deltaTime;
+            playerRigidBody.AddForce(transform.forward * leepingVelocity);
+            playerRigidBody.AddForce(-Vector3.up * fallingVelocity * inAirTime);
+        }
+
+        if(Physics.SphereCast(rayCastOrigin, 0.2f, -Vector3.up, out hit, groundLayer))
+        {
+            if(!isGrounded && !playerManager.isInteracting)
+            {
+                animationManager.PlayTargetAnimation("Land", true);
+            }
+
+            inAirTime = 0;
+            isGrounded = true;
+        }
+        else
+        {
+            isGrounded = false;
+        }
+    }
 }
