@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Animation_Controllers\AnimatorManager.cs" />
+    <Compile Include="Assets\zzz_Documentation\SourceLinks.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
