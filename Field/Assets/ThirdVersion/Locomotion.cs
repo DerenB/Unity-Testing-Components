@@ -14,7 +14,7 @@ public class Locomotion : MonoBehaviour
 
     [Header("Falling")]
     public float inAirTime;
-    public float leepingVelocity;
+    public float leapingVelocity;
     public float fallingVelocity;
     public float rayCastHeightOffset = 0.5f;
     public LayerMask groundLayer;
@@ -107,20 +107,24 @@ public class Locomotion : MonoBehaviour
 
         if(!isGrounded)
         {
-            if(!playerManager.isInteracting)
+            Debug.Log("YOU FELL");
+            if (!playerManager.isInteracting)
             {
+                Debug.Log("animate - - - fall");
                 animationManager.PlayTargetAnimation("Falling", true);
             }
 
             inAirTime = inAirTime + Time.deltaTime;
-            playerRigidBody.AddForce(transform.forward * leepingVelocity);
+            playerRigidBody.AddForce(transform.forward * leapingVelocity);
             playerRigidBody.AddForce(-Vector3.up * fallingVelocity * inAirTime);
         }
 
         if(Physics.SphereCast(rayCastOrigin, 0.2f, -Vector3.up, out hit, groundLayer))
         {
+            Debug.Log("YOU HIT THE GROUND");
             if(!isGrounded && !playerManager.isInteracting)
             {
+                Debug.Log("animate - - - land");
                 animationManager.PlayTargetAnimation("Land", true);
             }
 
@@ -129,6 +133,7 @@ public class Locomotion : MonoBehaviour
         }
         else
         {
+            Debug.Log("STILL FALLING ...... ");
             isGrounded = false;
         }
     }

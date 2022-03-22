@@ -1312,7 +1312,7 @@ MonoBehaviour:
   inAirTime: 0
   leepingVelocity: 3
   fallingVelocity: 33
-  rayCastHeightOffset: 0.5
+  rayCastHeightOffset: 0.2
   groundLayer:
     serializedVersion: 2
     m_Bits: 1
