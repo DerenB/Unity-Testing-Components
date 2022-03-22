@@ -172,6 +172,8 @@
     <Compile Include="Assets\Import_Invector-3rdPersonController_LITE\Scripts\Generic\Utils\vExtensions.cs" />
     <Compile Include="Assets\Import_Invector-3rdPersonController_LITE\Scripts\Camera\vThirdPersonCamera.cs" />
     <Compile Include="Assets\O_Animations\AnimatorManager.cs" />
+    <Compile Include="Assets\O_Camera_Script\PlayerCamera.cs" />
+    <Compile Include="Assets\O_InputControllers\PlayerManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Import_Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
