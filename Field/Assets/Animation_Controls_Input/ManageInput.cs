@@ -19,6 +19,7 @@ public class ManageInput : MonoBehaviour
 
     // Sprint Function
     public bool b_input;
+    public bool jump_input;
 
     public float cameraInputX;
     public float cameraInputY;
@@ -42,6 +43,9 @@ public class ManageInput : MonoBehaviour
             // Sprinting
             playerControls.PlayerAction.B.performed += i => b_input = true;
             playerControls.PlayerAction.B.canceled += i => b_input = false;
+
+            // Jumping
+            playerControls.PlayerAction.Jump.performed += i => jump_input = true;
         }
 
         playerControls.Enable();
@@ -56,8 +60,7 @@ public class ManageInput : MonoBehaviour
     {
         HandleMovementInput();
         HandleSprintInput();
-
-        //Handle Jump Input
+        HandleJumpingInput();
 
         // Handle Action Input
     }
@@ -83,6 +86,15 @@ public class ManageInput : MonoBehaviour
         else
         {
             playerLocomotion.isSprinting = false;
+        }
+    }
+
+    private void HandleJumpingInput()
+    {
+        if(jump_input)
+        {
+            jump_input = false;
+            playerLocomotion.HandleJumping();
         }
     }
 }
