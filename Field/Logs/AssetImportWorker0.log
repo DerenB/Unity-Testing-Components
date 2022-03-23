@@ -2054,3 +2054,226 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 79.076318 seconds.
+  path: Assets/z_Import_Kenny_Suburban
+  artifactKey: Guid(43731098f7ebb7e43aa1271910713c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/z_Import_Kenny_Suburban using Guid(43731098f7ebb7e43aa1271910713c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45bd1a8ba2d61e67547ef846d8a54cfc') in 0.003934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.568656 seconds.
+  path: Assets/z_Import_Kenny_Suburban/City-Suburban/driveway_short.fbx
+  artifactKey: Guid(40c49d34ec3cbe943b54150cb5b8b857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/z_Import_Kenny_Suburban/City-Suburban/driveway_short.fbx using Guid(40c49d34ec3cbe943b54150cb5b8b857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73a8613b578ce5d94ea2782d20c224d4') in 0.065976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.203945 seconds.
+  path: Assets/z_Import_Kenny_Suburban/City-Suburban/house_type02.fbx
+  artifactKey: Guid(af696e8bcef153347b073581c3c4e508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/z_Import_Kenny_Suburban/City-Suburban/house_type02.fbx using Guid(af696e8bcef153347b073581c3c4e508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e9249e9ebea9f4d8aa85869721948d4') in 0.033995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.400042 seconds.
+  path: Assets/z_Import_Kenny_Suburban/City-Suburban/house_type14.fbx
+  artifactKey: Guid(e72faaedf9abdda41be3da1d7707bf31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/z_Import_Kenny_Suburban/City-Suburban/house_type14.fbx using Guid(e72faaedf9abdda41be3da1d7707bf31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '987d4c124b91f4be4c5c3c2697aa61e8') in 0.039881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.672781 seconds.
+  path: Assets/z_Import_Kenny_Suburban/City-Suburban/house_type12.fbx
+  artifactKey: Guid(1bbb5a615212f7d4386941e0d86f4084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/z_Import_Kenny_Suburban/City-Suburban/house_type12.fbx using Guid(1bbb5a615212f7d4386941e0d86f4084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaad1f876f1fbbf35cab8e77f5708696') in 0.045508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.138109 seconds.
+  path: Assets/z_Import_Kenny_Suburban/City-Suburban/tree_small.fbx
+  artifactKey: Guid(a0d03a614504b2c42b9a703518d28745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/z_Import_Kenny_Suburban/City-Suburban/tree_small.fbx using Guid(a0d03a614504b2c42b9a703518d28745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f337757e3479084812e79ace26e55d8') in 0.015624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.866111 seconds.
+  path: Assets/z_Import_Kenny_Suburban/City-Suburban/tree_large.fbx
+  artifactKey: Guid(04ba6662a81b36346b85038c89098ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/z_Import_Kenny_Suburban/City-Suburban/tree_large.fbx using Guid(04ba6662a81b36346b85038c89098ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '719464c4456253a5ee79098d7807cfe9') in 0.017283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.438780 seconds.
+  path: Assets/z_Import_Kenny_Suburban/City-Suburban/path_tilesShort.fbx
+  artifactKey: Guid(9cbe25eefb27c26428ce3c7bbc938b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/z_Import_Kenny_Suburban/City-Suburban/path_tilesShort.fbx using Guid(9cbe25eefb27c26428ce3c7bbc938b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6605d7a073d13078c09c6b5f66f88e4b') in 0.016421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.931385 seconds.
+  path: Assets/z_Import_Kenny_Suburban/City-Suburban/path_tilesLong.fbx
+  artifactKey: Guid(3b356ebdcc6c5a448a97dda9bf37b8a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/z_Import_Kenny_Suburban/City-Suburban/path_tilesLong.fbx using Guid(3b356ebdcc6c5a448a97dda9bf37b8a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92527e3da3dd4f8c62d77434930a5888') in 0.019733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.664176 seconds.
+  path: Assets/z_Import_Kenny_Suburban/City-Suburban/path_short.fbx
+  artifactKey: Guid(6a9980b2b7fc050448bd67b2e46a6b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/z_Import_Kenny_Suburban/City-Suburban/path_short.fbx using Guid(6a9980b2b7fc050448bd67b2e46a6b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10d91b444bd13edd15ee2049e7827a31') in 0.018820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.303719 seconds.
+  path: Assets/z_Import_Kenny_Suburban/City-Suburban/path_long.fbx
+  artifactKey: Guid(8b2367ce594f8e54bb8920cb29c8c326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/z_Import_Kenny_Suburban/City-Suburban/path_long.fbx using Guid(8b2367ce594f8e54bb8920cb29c8c326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e2a4dcef35820f18b52f43caa8eac52') in 0.023431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.653495 seconds.
+  path: Assets/z_Import_Kenny_Suburban/City-Suburban/house_type21.fbx
+  artifactKey: Guid(8562881680edc8341ba644ac4e8b4c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/z_Import_Kenny_Suburban/City-Suburban/house_type21.fbx using Guid(8562881680edc8341ba644ac4e8b4c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e5da814ccc65c8f0b730edd005628fa') in 0.040101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.361374 seconds.
+  path: Assets/z_Import_Kenny_Suburban/City-Suburban/house_type20.fbx
+  artifactKey: Guid(267b8f0945570154d8ec9a6fb74e6ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/z_Import_Kenny_Suburban/City-Suburban/house_type20.fbx using Guid(267b8f0945570154d8ec9a6fb74e6ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdb9f9b44098576d28943c44a81414bc') in 0.023169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.624243 seconds.
+  path: Assets/z_Import_Kenny_Suburban/City-Suburban/house_type19.fbx
+  artifactKey: Guid(59b362cae7494264aaa77852611bc67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/z_Import_Kenny_Suburban/City-Suburban/house_type19.fbx using Guid(59b362cae7494264aaa77852611bc67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '569a524fd9bab117ae9dc06cba798e65') in 0.022012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.028044 seconds.
+  path: Assets/z_Import_Kenny_Suburban/City-Suburban/house_type18.fbx
+  artifactKey: Guid(d8541daa59df4734094566d66ab57a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/z_Import_Kenny_Suburban/City-Suburban/house_type18.fbx using Guid(d8541daa59df4734094566d66ab57a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '946b41974d966f61d4ed39321b9f66d1') in 0.022633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.442937 seconds.
+  path: Assets/z_Import_Kenny_Suburban/City-Suburban/house_type17.fbx
+  artifactKey: Guid(ed3542f26e307154fa32dd1c63f75e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/z_Import_Kenny_Suburban/City-Suburban/house_type17.fbx using Guid(ed3542f26e307154fa32dd1c63f75e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd15c6c28a2f7a12f6d64e36162dc5cc0') in 0.026082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.648657 seconds.
+  path: Assets/z_Import_Kenny_Suburban/City-Suburban/house_type16.fbx
+  artifactKey: Guid(5de6fef074de92144ae324e417d3faa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/z_Import_Kenny_Suburban/City-Suburban/house_type16.fbx using Guid(5de6fef074de92144ae324e417d3faa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0af3c5333c9dffe4c8543def1eb5971') in 0.023904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 75.734092 seconds.
+  path: Assets/z_Import_Kenny_Suburban/City-Suburban
+  artifactKey: Guid(ac3be4b0a269bc2488a3b960fea368ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/z_Import_Kenny_Suburban/City-Suburban using Guid(ac3be4b0a269bc2488a3b960fea368ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee5a3d232ed342598cc3c2dbf04db8be') in 0.001508 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002332 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.760 seconds
+Domain Reload Profiling:
+	ReloadAssembly (760ms)
+		BeginReloadAssembly (89ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (626ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (207ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (245ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (175ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1994 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.9 MB.
+System memory in use after: 107.0 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2559.
+Total: 2.301300 ms (FindLiveObjects: 0.151200 ms CreateObjectMapping: 0.057400 ms MarkObjects: 2.076700 ms  DeleteObjects: 0.015300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002160 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.759 seconds
+Domain Reload Profiling:
+	ReloadAssembly (760ms)
+		BeginReloadAssembly (88ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (625ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (206ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (245ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (174ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1994 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.9 MB.
+System memory in use after: 107.0 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2562.
+Total: 2.256500 ms (FindLiveObjects: 0.154300 ms CreateObjectMapping: 0.063400 ms MarkObjects: 2.024400 ms  DeleteObjects: 0.013300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
