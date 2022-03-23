@@ -58,13 +58,17 @@
   <ItemGroup>
     <Compile Include="Assets\Animation_Controls_Input\ResetBool.cs" />
     <Compile Include="Assets\Animation_Controls_Input\ManageInput.cs" />
+    <Compile Include="Assets\Animation_Controls_Input\ResetIsJumping.cs" />
     <Compile Include="Assets\Animation_Controls_Input\ControllingPlayer.cs" />
     <Compile Include="Assets\zzz_Documentation\SourceLinks.cs" />
     <Compile Include="Assets\Animation_Controls_Input\CameraManager.cs" />
     <Compile Include="Assets\Animation_Controls_Input\Locomotion.cs" />
     <Compile Include="Assets\Animation_Controls_Input\ManageAnimation.cs" />
     <Compile Include="Assets\Animation_Controls_Input\ManagePlayer.cs" />
-    <Compile Include="Assets\Animation_Controls_Input\ResetIsJumping.cs" />
+    <Compile Include="Assets\zzz_Documentation\GameControls.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\z_Import_Kenny_Characters\Animation-characters\License.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
