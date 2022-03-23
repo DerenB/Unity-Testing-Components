@@ -237,6 +237,15 @@ public partial class @ControllingPlayer : IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Jump"",
+                    ""type"": ""Button"",
+                    ""id"": ""fd05f05c-df03-42fd-b895-76838ef7c2eb"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -261,6 +270,28 @@ public partial class @ControllingPlayer : IInputActionCollection2, IDisposable
                     ""action"": ""B"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""4f137604-2997-4458-ba4f-874da55c92b4"",
+                    ""path"": ""<Keyboard>/space"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Jump"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""3fba9941-bdec-4340-9982-0b7b882cc2b0"",
+                    ""path"": ""<Gamepad>/buttonSouth"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Jump"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -274,6 +305,7 @@ public partial class @ControllingPlayer : IInputActionCollection2, IDisposable
         // PlayerAction
         m_PlayerAction = asset.FindActionMap("PlayerAction", throwIfNotFound: true);
         m_PlayerAction_B = m_PlayerAction.FindAction("B", throwIfNotFound: true);
+        m_PlayerAction_Jump = m_PlayerAction.FindAction("Jump", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -375,11 +407,13 @@ public partial class @ControllingPlayer : IInputActionCollection2, IDisposable
     private readonly InputActionMap m_PlayerAction;
     private IPlayerActionActions m_PlayerActionActionsCallbackInterface;
     private readonly InputAction m_PlayerAction_B;
+    private readonly InputAction m_PlayerAction_Jump;
     public struct PlayerActionActions
     {
         private @ControllingPlayer m_Wrapper;
         public PlayerActionActions(@ControllingPlayer wrapper) { m_Wrapper = wrapper; }
         public InputAction @B => m_Wrapper.m_PlayerAction_B;
+        public InputAction @Jump => m_Wrapper.m_PlayerAction_Jump;
         public InputActionMap Get() { return m_Wrapper.m_PlayerAction; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -392,6 +426,9 @@ public partial class @ControllingPlayer : IInputActionCollection2, IDisposable
                 @B.started -= m_Wrapper.m_PlayerActionActionsCallbackInterface.OnB;
                 @B.performed -= m_Wrapper.m_PlayerActionActionsCallbackInterface.OnB;
                 @B.canceled -= m_Wrapper.m_PlayerActionActionsCallbackInterface.OnB;
+                @Jump.started -= m_Wrapper.m_PlayerActionActionsCallbackInterface.OnJump;
+                @Jump.performed -= m_Wrapper.m_PlayerActionActionsCallbackInterface.OnJump;
+                @Jump.canceled -= m_Wrapper.m_PlayerActionActionsCallbackInterface.OnJump;
             }
             m_Wrapper.m_PlayerActionActionsCallbackInterface = instance;
             if (instance != null)
@@ -399,6 +436,9 @@ public partial class @ControllingPlayer : IInputActionCollection2, IDisposable
                 @B.started += instance.OnB;
                 @B.performed += instance.OnB;
                 @B.canceled += instance.OnB;
+                @Jump.started += instance.OnJump;
+                @Jump.performed += instance.OnJump;
+                @Jump.canceled += instance.OnJump;
             }
         }
     }
@@ -411,5 +451,6 @@ public partial class @ControllingPlayer : IInputActionCollection2, IDisposable
     public interface IPlayerActionActions
     {
         void OnB(InputAction.CallbackContext context);
+        void OnJump(InputAction.CallbackContext context);
     }
 }
