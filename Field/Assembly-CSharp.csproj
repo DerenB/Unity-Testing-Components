@@ -56,14 +56,14 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\ThirdVersion\ResetBool.cs" />
-    <Compile Include="Assets\ThirdVersion\ManageInput.cs" />
-    <Compile Include="Assets\ThirdVersion\ControllingPlayer.cs" />
+    <Compile Include="Assets\Animation_Controls_Input\ResetBool.cs" />
+    <Compile Include="Assets\Animation_Controls_Input\ManageInput.cs" />
+    <Compile Include="Assets\Animation_Controls_Input\ControllingPlayer.cs" />
     <Compile Include="Assets\zzz_Documentation\SourceLinks.cs" />
-    <Compile Include="Assets\ThirdVersion\CameraManager.cs" />
-    <Compile Include="Assets\ThirdVersion\Locomotion.cs" />
-    <Compile Include="Assets\ThirdVersion\ManageAnimation.cs" />
-    <Compile Include="Assets\ThirdVersion\ManagePlayer.cs" />
+    <Compile Include="Assets\Animation_Controls_Input\CameraManager.cs" />
+    <Compile Include="Assets\Animation_Controls_Input\Locomotion.cs" />
+    <Compile Include="Assets\Animation_Controls_Input\ManageAnimation.cs" />
+    <Compile Include="Assets\Animation_Controls_Input\ManagePlayer.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
